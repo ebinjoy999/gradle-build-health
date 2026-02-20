@@ -1,0 +1,16 @@
+com.ebinjoy999.library-lifecycle-runtime-2.6.2-0 /Users/A-9741/.gradle/caches/9.1.0/transforms/179fc1eca11e971cb307675baa8a4c71/transformed/lifecycle-runtime-2.6.2/res
+com.ebinjoy999.library-annotation-experimental-1.4.1-1 /Users/A-9741/.gradle/caches/9.1.0/transforms/3fc6a8c37ed5e182705433ed1724f957/transformed/annotation-experimental-1.4.1/res
+com.ebinjoy999.library-core-viewtree-1.0.0-2 /Users/A-9741/.gradle/caches/9.1.0/transforms/4fdf2e145c0fa6bf3145c97bb60968a9/transformed/core-viewtree-1.0.0/res
+com.ebinjoy999.library-profileinstaller-1.3.0-3 /Users/A-9741/.gradle/caches/9.1.0/transforms/9de382046ff954c3863ed02d8208f50d/transformed/profileinstaller-1.3.0/res
+com.ebinjoy999.library-core-1.17.0-4 /Users/A-9741/.gradle/caches/9.1.0/transforms/b54381738dc8e30951fcd8585d379045/transformed/core-1.17.0/res
+com.ebinjoy999.library-core-ktx-1.17.0-5 /Users/A-9741/.gradle/caches/9.1.0/transforms/bf004fc45ba4de06902f24edc2fa5da9/transformed/core-ktx-1.17.0/res
+com.ebinjoy999.library-tracing-1.2.0-6 /Users/A-9741/.gradle/caches/9.1.0/transforms/ca5ed7a1702607738e7972a70edf71f6/transformed/tracing-1.2.0/res
+com.ebinjoy999.library-core-runtime-2.2.0-7 /Users/A-9741/.gradle/caches/9.1.0/transforms/cc1fc2e185bc550529507bab338a6e45/transformed/core-runtime-2.2.0/res
+com.ebinjoy999.library-startup-runtime-1.1.1-8 /Users/A-9741/.gradle/caches/9.1.0/transforms/fa5e3e9a60746e931dbef6f2283e9f0a/transformed/startup-runtime-1.1.1/res
+com.ebinjoy999.library-pngs-9 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/build/generated/res/pngs/release
+com.ebinjoy999.library-updated_navigation_xml-10 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/build/generated/updated_navigation_xml/release
+com.ebinjoy999.library-mergeReleaseResources-11 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ebinjoy999.library-mergeReleaseResources-12 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ebinjoy999.library-release-13 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/build/intermediates/merged_res/release/mergeReleaseResources
+com.ebinjoy999.library-main-14 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/src/main/res
+com.ebinjoy999.library-release-15 /Users/A-9741/Documents/code/pAndroid/BuildHealth/library/src/release/res
