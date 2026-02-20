@@ -20,6 +20,16 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BuildHealth"
+rootProject.name = "ShopLite"
+
+// App module
 include(":app")
-include(":library")
+
+// Core modules
+include(":core-model")
+include(":core-network")
+include(":core-data")
+
+// Feature modules
+include(":feature-home")
+include(":feature-search")
