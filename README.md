@@ -55,6 +55,14 @@ Once applied, the plugin automatically prints a build summary after every build:
 ────────────────────────────────────────
 ```
 
+## Screenshots
+
+### Sample Android App
+<img width="250" src = "screenshots/android-sample.png">
+
+### Build Output
+![Build Output](screenshots/build-output.png)
+
 ## Configuration
 
 ### Enable JSON Export
