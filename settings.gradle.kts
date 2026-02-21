@@ -20,7 +20,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ShopLite"
+rootProject.name = "BuildHealth"
 
 // App module
 include(":app")

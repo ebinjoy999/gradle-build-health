@@ -7,6 +7,9 @@ plugins {
     id("com.ebinjoy999.build-health")
 }
 
+group = "com.ebinjoy999"
+version = "1.0.0"
+
 buildHealth {
     exportJson = true
 }
