@@ -63,6 +63,7 @@ Once applied, the plugin automatically prints a build summary after every build:
 ### Build Output
 ![Build Output](screenshots/build-output.png)
 
+
 ## Configuration
 
 ### Enable JSON Export
@@ -76,6 +77,9 @@ buildHealth {
     exportJson = true
 }
 ```
+Output sample
+
+<img width="300" src = "screenshots/advanced_json.png">
 
 **Option 2: Via command line**
 
