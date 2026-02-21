@@ -12,10 +12,10 @@
  *       GRADLE_PUBLISH_SECRET=YOUR_SECRET
  *
  * To publish:
- *   ./gradlew publishPlugins
+ *   ./gradlew :build-health-plugin:publishPlugins
  *
  * To validate without publishing:
- *   ./gradlew publishPlugins --validate-only
+ *   ./gradlew :build-health-plugin:publishPlugins --validate-only
  */
 
 plugins {
@@ -37,8 +37,8 @@ kotlin {
 }
 
 gradlePlugin {
-    website.set("https://github.com/ebinjoy999/build-health")
-    vcsUrl.set("https://github.com/ebinjoy999/build-health")
+    website.set("https://github.com/ebinjoy999/gradle-build-health")
+    vcsUrl.set("https://github.com/ebinjoy999/gradle-build-health")
 
     plugins {
         create("buildHealth") {
@@ -46,7 +46,7 @@ gradlePlugin {
             implementationClass = "com.ebinjoy999.buildhealth.BuildHealthPlugin"
             displayName = "Build Health"
             description = "A Gradle plugin that prints a build-end executive summary with timing metrics, slowest tasks, and cache statistics. Supports JSON export for CI integration."
-            tags.set(listOf("gradle", "build-performance", "android", "ci", "developer-tools"))
+            tags.set(listOf("build-performance", "android", "ci", "developer-tools", "metrics"))
         }
     }
 }
