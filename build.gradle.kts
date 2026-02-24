@@ -4,10 +4,10 @@ plugins {
     alias(libs.plugins.android.library) apply false
     alias(libs.plugins.kotlin.jvm) apply false
     alias(libs.plugins.kotlin.compose) apply false
-    id("com.ebinjoy999.build-health")
+    id("io.github.ebinjoy999.gradle-build-health")
 }
 
-group = "com.ebinjoy999"
+group = "io.github.ebinjoy999"
 version = "1.0.0"
 
 buildHealth {

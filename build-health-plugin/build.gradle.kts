@@ -24,7 +24,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
-group = "com.ebinjoy999"
+group = "io.github.ebinjoy999"
 version = "1.0.0"
 
 java {
@@ -42,8 +42,8 @@ gradlePlugin {
 
     plugins {
         create("buildHealth") {
-            id = "com.ebinjoy999.build-health"
-            implementationClass = "com.ebinjoy999.buildhealth.BuildHealthPlugin"
+            id = "io.github.ebinjoy999.gradle-build-health"
+            implementationClass = "io.github.ebinjoy999.gradle_build_health.BuildHealthPlugin"
             displayName = "Build Health"
             description = "A Gradle plugin that prints a build-end executive summary with timing metrics, slowest tasks, and cache statistics. Supports JSON export for CI integration."
             tags.set(listOf("build-performance", "android", "ci", "developer-tools", "metrics"))

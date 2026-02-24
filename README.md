@@ -13,7 +13,7 @@ Add the plugin to your root `build.gradle.kts`:
 
 ```kotlin
 plugins {
-    id("com.ebinjoy999.build-health") version "1.0.0"
+    id("io.github.ebinjoy999.gradle-build-health") version "1.0.0"
 }
 ```
 
@@ -25,11 +25,11 @@ buildscript {
         gradlePluginPortal()
     }
     dependencies {
-        classpath("com.ebinjoy999:build-health:1.0.0")
+        classpath("io.github.ebinjoy999:gradle-build-health:1.0.0")
     }
 }
 
-apply(plugin = "com.ebinjoy999.build-health")
+apply(plugin = "io.github.ebinjoy999.gradle-build-health")
 ```
 
 > **Note:** Apply the plugin only to the **root project**. The plugin automatically skips non-root projects to avoid duplicate summaries.
